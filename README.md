@@ -1,0 +1,2 @@
+# Use-After-Free Bug in Rust
+This repository demonstrates a use-after-free bug in Rust, a common error that can lead to unexpected behavior and crashes. The bug arises from manipulating a vector using raw pointers, which bypasses Rust's memory safety features. This can easily result in accessing memory that is no longer valid, leading to unpredictable consequences.
